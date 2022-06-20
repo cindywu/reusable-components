@@ -1,0 +1,44 @@
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 150px 550px 250px;
+  grid-template-rows: 100px auto;
+  gap: 15px;
+
+  grid-template-areas:
+    "nav nav nav"
+    "sidebar main gutter";
+}
+
+.container div {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.block {
+  background-color: hsl(0, 0%, 90%);
+  color: black;
+  padding: 1rem;
+}
+
+.nav {
+  background-color: peachpuff;
+  grid-area: nav;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: lemonchiffon;
+}
+
+.main {
+  background-color: lightcyan;
+  grid-area: main;
+}
+
+.gutter {
+  grid-area: gutter;
+  background-color: thistle;
+}
