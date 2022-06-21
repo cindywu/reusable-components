@@ -1,4 +1,11 @@
 .container {
+  min-width: 100vw;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  padding-top: 1rem;
+}
+
+.grid {
   margin: 0 auto;
   max-width: 980px;
   min-height: 100vh;
@@ -13,7 +20,6 @@
 }
 
 .container div {
-  padding: 1rem;
   font-weight: 500;
 }
 
@@ -26,19 +32,27 @@
 .nav {
   background-color: papayawhip;
   grid-area: nav;
+  border: 1px solid hsl(0, 0%, 85%);
+  padding: 1rem;
 }
 
 .sidebar {
   grid-area: sidebar;
-  background-color: darkseagreen;
+  background-color: honeydew;
+  border: 1px solid hsl(0, 0%, 85%);
+  padding: 1rem;
 }
 
 .main {
-  background-color: lightpink;
+  background-color: ivory;
+  border: 1px solid hsl(0, 0%, 85%);
   grid-area: main;
+  padding: 1rem;
 }
 
 .gutter {
   grid-area: gutter;
-  background-color: peru;
+  background-color: mistyrose;
+  border: 1px solid hsl(0, 0%, 85%);
+  padding: 1rem;
 }
