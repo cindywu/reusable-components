@@ -10,7 +10,7 @@
   max-width: 1150px;
   min-height: 100vh;
   grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-  grid-auto-rows: 40px;
+  grid-auto-rows: 30px;
   gap: 15px;
 }
 
