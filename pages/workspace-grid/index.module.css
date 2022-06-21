@@ -24,21 +24,21 @@
 }
 
 .nav {
-  background-color: peachpuff;
+  background-color: papayawhip;
   grid-area: nav;
 }
 
 .sidebar {
   grid-area: sidebar;
-  background-color: lemonchiffon;
+  background-color: darkseagreen;
 }
 
 .main {
-  background-color: lightcyan;
+  background-color: lightpink;
   grid-area: main;
 }
 
 .gutter {
   grid-area: gutter;
-  background-color: thistle;
+  background-color: peru;
 }

@@ -157,7 +157,13 @@ export default function NamedColors() {
     <div className={styles.container}>
       {colors.map((color: string) => {
         return (
-          <div className={styles.card} key={color}>
+          <div
+            className={styles.card}
+            key={color}
+            style={{
+              backgroundColor: `${color}`,
+            }}
+          >
             {color}
           </div>
         )

@@ -3,7 +3,7 @@
   max-width: 980px;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(100px, 10);
   /* grid-template-rows: repeat(1fr, 3); */
   /* grid-auto-flow: row; */
   /* grid-template-columns: 1fr 1fr 1fr;
@@ -16,5 +16,5 @@
 }
 
 .card {
-
+  padding: 1rem;
 }
