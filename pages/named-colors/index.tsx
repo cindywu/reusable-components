@@ -155,19 +155,21 @@ export default function NamedColors() {
 
   return (
     <div className={styles.container}>
-      {colors.map((color: string) => {
-        return (
-          <div
-            className={styles.card}
-            key={color}
-            style={{
-              backgroundColor: `${color}`,
-            }}
-          >
-            {color}
-          </div>
-        )
-      })}
+      <div className={styles.grid}>
+        {colors.map((color: string) => {
+          return (
+            <div
+              className={styles.card}
+              key={color}
+              style={{
+                backgroundColor: `${color}`,
+              }}
+            >
+              {color}
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }
