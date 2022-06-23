@@ -56,3 +56,21 @@
   border: 1px solid hsl(0, 0%, 85%);
   padding: 1rem;
 }
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 100vw;
+    grid-template-rows: 100px auto;
+    grid-template-areas:
+      "nav"
+      "main";
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .gutter {
+    display: none;
+  }
+}
